@@ -1,0 +1,48 @@
+{
+    "entity": "event",
+    "account_id": "acc_KHHPLCq6X2saTF",
+    "event": "payment.captured",
+    "contains": [
+        "payment"
+    ],
+    "payload": {
+        "payment": {
+            "entity": {
+                "id": "pay_KHjr2LD4jjYh6u",
+                "entity": "payment",
+                "amount": 100,
+                "currency": "INR",
+                "status": "captured",
+                "order_id": "order_KHjqfEi9lxH9Ni",
+                "invoice_id": null,
+                "international": false,
+                "method": "upi",
+                "amount_refunded": 0,
+                "refund_status": null,
+                "captured": true,
+                "description": "Merchant Description",
+                "card_id": null,
+                "bank": null,
+                "wallet": null,
+                "vpa": "9472028436@ybl",
+                "email": "vipulsinghssm1@gmail.com",
+                "contact": "+919262704265",
+                "notes": [],
+                "fee": 2,
+                "tax": 0,
+                "error_code": null,
+                "error_description": null,
+                "error_source": null,
+                "error_step": null,
+                "error_reason": null,
+                "acquirer_data": {
+                    "rrn": "238620743928",
+                    "upi_transaction_id": "79D40CBB6AEDDE3BC2697683C0E79516"
+                },
+                "created_at": 1663149398,
+                "base_amount": 100
+            }
+        }
+    },
+    "created_at": 1663149398
+}
